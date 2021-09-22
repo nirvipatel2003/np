@@ -1,0 +1,167 @@
+body{
+  font-family: "Ubuntu";
+  text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Bold";
+}
+
+.big-heading{
+  font-family:"Montserrat-Bold";
+  font-size: 4rem;
+  line-height: 1.5;
+  }
+
+.section-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.title-image{
+  width:50%;
+  transform: rotate(25deg);
+  position: absolute;
+  padding-top: 20px;
+}
+
+p{
+  font-family: "Cuprum";
+  color: #000000;
+  font-size: 1rem;
+}
+
+#title{
+    text-align: left;
+}
+
+ .container-fluid{
+  padding: 7% 15%;
+
+}
+
+/* SECTION */
+.colored-section{
+  background-color: #0A1931;
+  color:#FFFFFF;
+}
+.white-section{
+  background-color: #FFFFFF;
+}
+
+/* NAVBAR */
+.navbar-brand{
+  font-family: "Cuprum";
+  font-size:2rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding-bottom: 5.5rem;
+}
+
+.nav-item{
+  padding: 0px 18px;
+font-size: 1rem;
+}
+/* FEATURES */
+#features{
+  padding: 10% 15%;
+  background-color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  color: #9D9D9D;
+}
+
+.icon{
+  color: #FF5C58;
+}
+
+/* TESTIMONIAL FEATURES */
+#testimonials{https://nirvipatel2003.github.io/np/
+  padding: 10%;
+  background-color: #0A1931;
+  color:#FEFBF3;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.dog-image{
+  width:10%;
+  border-radius: 100%;
+
+}
+
+.lady-image{
+  width:10%;
+  border-radius: 100%;
+}
+
+.carousel-item{
+  padding: 10% 15%;
+}
+/* PRICING SECTION */
+#pricing{
+  padding:100px;
+}
+
+.breed{
+  font-size: 1.3rem;
+}
+.price-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.breed{
+  font-family: "Ubuntu";
+}
+
+.price-text{
+  font-family:"Montserrat-Black";
+  font-size: 2rem;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA */
+#cta{
+  background-color: #0A1931;
+  color: #FFFFFF;
+  padding: 7% 15%;
+}
+
+.cta-heading{
+  color: #FFFFFF;
+  font-family: "Montserrat-Black";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#footer{
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
